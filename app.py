@@ -30,15 +30,8 @@ def specific_car(cars_id):
     return jsonify(resp), code
 
 
-
-
-
-
-
-
-
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
 
 
 
