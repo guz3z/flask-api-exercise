@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request
-from controllers import cars
 from flask_cors import CORS
+from controllers import cars
 
 
 app = Flask(__name__)

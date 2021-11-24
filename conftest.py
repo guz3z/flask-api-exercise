@@ -11,4 +11,3 @@ def api(monkeypatch):
     monkeypatch.setattr(cars, "cars", test_cars)
     api = app.app.test_client()
     return api
-    
